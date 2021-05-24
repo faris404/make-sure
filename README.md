@@ -7,11 +7,11 @@
 pip install makesure
 ```
 ## Usage
-###### Create a schema that defines your data and call the function `make_sure(your_schema,input_data)`
-###### if any validation fails it will raise an exception `MakeSureException` otherwise it return the data.
+Create a schema that defines your data and call the function `make_sure(your_schema,input_data)`
+if any validation fails it will raise an exception `MakeSureException` otherwise it return the data.
 
 ## Schemas
-###### A schema is a dict that defines your data.
+A schema is a dict that defines your data.
 
 |Keys|Description|
 | ------ | ------ |
