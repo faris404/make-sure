@@ -41,6 +41,18 @@ user_schema = {
     }
 }
 ```
+
+
+## Some Useful Regx
+```py
+from makesure import Regx
+```
+|Regx|Description|
+| ------ | ------ |
+| Regx.email | email regx |
+| Regx.aplha | only alphabets |
+| Regx.number | only numbers |
+| Regx.alphanum | alphanumerics string |
 ## Example
 ```py
 # app.py
