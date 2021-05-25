@@ -10,7 +10,7 @@ with open('README.md','r') as f:
 setup(
   name = 'makesure',        
   packages = ['makesure'],   
-  version = '0.3',      
+  version = '0.4',      
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'simple validator for input data (only work for python dict)', 
   author = 'Muhammed Faris',               
