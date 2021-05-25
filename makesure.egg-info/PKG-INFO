@@ -1,12 +1,12 @@
 Metadata-Version: 2.1
 Name: makesure
-Version: 0.3
-Summary: simple validator for input data (only for python dic)
+Version: 0.4
+Summary: simple validator for input data (only work for python dict)
 Home-page: https://github.com/faris404/make-sure
 Author: Muhammed Faris
 Author-email: faris.um2000@gmail.com
 License: MIT
-Download-URL: https://github.com/faris404/make-sure/archive/v_0.1.tar.gz
+Download-URL: https://github.com/faris404/make-sure/archive/v_0.4.tar.gz
 Description: # makesure
         
         >  _Simple validation for input datas_
@@ -31,6 +31,8 @@ Description: # makesure
         | max_len | len of value less than or equal to max_len |
         | regx | value must satisfy this reguler expressions |
         | type | data types such as int, str, list, dict, tuple |
+        | enum | value must be in list or tuple or set |
+        | msg | your own error message |
         
         #### sample schema
         ```py
@@ -59,7 +61,7 @@ Description: # makesure
         |Regx|Description|
         | ------ | ------ |
         | Regx.email | email regx |
-        | Regx.aplha | only alphabets |
+        | Regx.alpha | only alphabets |
         | Regx.number | only numbers |
         | Regx.alphanum | alphanumerics string |
         ## Example
@@ -96,7 +98,6 @@ Description: # makesure
         ```
         
         ## License
-        
         MIT
         
 Keywords: makesure,validation,parser,json validator
