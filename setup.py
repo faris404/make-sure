@@ -12,13 +12,13 @@ setup(
   packages = ['makesure'],   
   version = '0.3',      
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
-  description = 'simple validator for input data (only for python dict)', 
+  description = 'simple validator for input data (only work for python dict)', 
   author = 'Muhammed Faris',               
   author_email = 'faris.um2000@gmail.com',     
   long_description=long_description,
   long_description_content_type="text/markdown", 
   url = 'https://github.com/faris404/make-sure',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/faris404/make-sure/archive/v_0.1.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/faris404/make-sure/archive/v_0.4.tar.gz',    # I explain this later on
   keywords = ['makesure', 'validation', 'parser','json validator'],   # Keywords that define your package best
   install_requires=[],
   classifiers=[
