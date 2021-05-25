@@ -22,6 +22,8 @@ A schema is a dict that defines your data.
 | max_len | len of value less than or equal to max_len |
 | regx | value must satisfy this reguler expressions |
 | type | data types such as int, str, list, dict, tuple |
+| enum | value must be in list or tuple or set |
+| msg | your own error message |
 
 #### sample schema
 ```py
@@ -50,7 +52,7 @@ from makesure import Regx
 |Regx|Description|
 | ------ | ------ |
 | Regx.email | email regx |
-| Regx.aplha | only alphabets |
+| Regx.alpha | only alphabets |
 | Regx.number | only numbers |
 | Regx.alphanum | alphanumerics string |
 ## Example
@@ -87,5 +89,4 @@ except MakeSureException as e:
 ```
 
 ## License
-
 MIT

@@ -12,7 +12,7 @@ setup(
   packages = ['makesure'],   
   version = '0.3',      
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
-  description = 'simple validator for input data (only for python dic)', 
+  description = 'simple validator for input data (only for python dict)', 
   author = 'Muhammed Faris',               
   author_email = 'faris.um2000@gmail.com',     
   long_description=long_description,

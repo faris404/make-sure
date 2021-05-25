@@ -34,6 +34,9 @@ def min_len_er(key,val):
 def regx_er(key,_):
     return f"{key} does not match with the regx"
 
+def enum_er(key,val):
+    return f"{key} must be in {val}"
+
 
 #   validation functions
 
@@ -57,7 +60,10 @@ def regx(arg,val):
         return True
     return False
 
-
+def enum(arg,val):
+    if type(arg)==set or type(arg)==list or type(arg)==tuple:
+        return val in arg
+    raise MakeSureException('enum must be iterable')
 #   validation function dict
 functions = {
     'min':_min,
@@ -65,7 +71,8 @@ functions = {
     'type':data_type,
     'max_len':max_len,
     'min_len':min_len,
-    'regx':regx
+    'regx':regx,
+    'enum':enum
 }
 
 #   error function dict
@@ -75,7 +82,8 @@ error_func = {
     'type':data_type_er,
     'max_len':max_len_er,
     'min_len':min_len_er,
-    'regx':regx_er
+    'regx':regx_er,
+    'enum':enum_er
 }
 
 
