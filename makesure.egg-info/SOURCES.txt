@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+makesure/__init__.py
+makesure/main.py
+makesure.egg-info/PKG-INFO
+makesure.egg-info/SOURCES.txt
+makesure.egg-info/dependency_links.txt
+makesure.egg-info/top_level.txt
